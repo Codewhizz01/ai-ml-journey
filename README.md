@@ -39,3 +39,18 @@ df.groupby("City")["CGPA"].mean()
 # One line. Entire story of a dataset.
 **skills used:**
 'pd.Series'.'pd.DataFrame'.'groupby'.'apply'.'lambda'.'describe'
+
+
+### Day 2 — Student Result Analyser
+
+> Learned how messy real-world data gets cleaned into insights.
+
+Built a script that takes raw student data full of missing values
+and duplicates — and cleans, ranks, and analyses it.
+
+**The moment that clicked:**
+```python
+df["Rank"] = df["Marks"].rank(ascending=False).astype(int)
+# Ranking 100 students in one line.
+**Skills used:**
+isnull · notnull · dropna · drop_duplicates · value_counts · sort_values · rank · set_index · reset_index · sort_index · unique · nunique
