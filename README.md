@@ -53,4 +53,10 @@ and duplicates — and cleans, ranks, and analyses it.
 df["Rank"] = df["Marks"].rank(ascending=False).astype(int)
 # Ranking 100 students in one line.
 **Skills used:**
-isnull · notnull · dropna · drop_duplicates · value_counts · sort_values · rank · set_index · reset_index · sort_index · unique · nunique
+isnull · notnull · dropna · drop_duplicates · value_counts · sort_values · rank · set_index · reset_index 
+
+### Day 3 - groupby(in progress)
+> * Started understanding how groupby splits data and applies functions. *
+** Learning today: **
+'groupby()' . aggregating data by category .'.mean()' '.sum()' '.count()' on groups
+** Status:** Still practicing - will add code once i build something with it.
