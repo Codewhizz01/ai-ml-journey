@@ -60,3 +60,29 @@ isnull · notnull · dropna · drop_duplicates · value_counts · sort_values ·
 ** Learning today: **
 'groupby()' . aggregating data by category .'.mean()' '.sum()' '.count()' on groups
 ** Status:** Still practicing - will add code once i build something with it.
+
+### day 4- multi-source sales data consolidator (groupby,merging,joining,concatinate)
+#  Multi-Source Sales Data Consolidator
+
+A realistic data engineering problem — combining sales data scattered across 
+multiple sources (quarterly sales, product catalog, customer records) into 
+one unified business report.
+
+## Problem This Solves
+Real companies store data in separate systems — Sales team, Inventory team, 
+and CRM each have their own tables. This project simulates combining them 
+into actionable business insights.
+
+##  Pandas Techniques Used
+- `pd.concat()` — Combining quarterly data into one table
+- `pd.merge()` — Joining sales with product and customer data (left joins)
+- `.groupby().agg()` — Multi-metric analysis (sum, mean, count together)
+- Business KPI calculation — Revenue, top customers, top products
+
+## Insights Generated
+- Total revenue and average order value
+- Revenue breakdown by city
+- Best-selling products
+- Quarter-over-quarter performance
+- Top spending customers
+
